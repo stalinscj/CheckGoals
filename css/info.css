@@ -1,0 +1,42 @@
+#info {
+    background: #041E2D;
+    color: #A2D2E9;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-team {
+    margin: 20px;
+}
+
+.info-team img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #A2D2E9;
+}
+
+@media(min-width:480px){
+    .info-team {
+        width: 40%;
+    }
+}
+
+@media(min-width:1024px){
+    .info-team {
+        width: auto;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 47px;
+    color: #A2D2E9;
+    background: #041E2D;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor {
+    width: 99%;
+    margin: auto;
+}
+
+h1 {
+    float: left;
+}
+
+header .contenedor {
+    display: table;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#bienvenidos {
+    text-align: center;
+    
+}
+
+#bienvenidos h2{
+    background: #A2D2E9;
+    color: #041E2D;
+}
+
+#bienvenidos p {
+    text-align: justify;
+}
+
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy {
+    font-size: 20px;
+}
+
+.sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.sociales a {
+    color: #041E2D;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.icon-facebook:hover {
+    color: #FFF;
+    background:#3B5998;
+}
+
+.icon-twitter:hover {
+    color: #00ACED;
+}
+
+.icon-youtube3:hover {
+    color: #CC181E;
+}
+
+
+
+@media (min-width:720px) {
+    .sociales {
+        width: auto;
+    }
+    
+    footer .contenedor {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:1024px) {
+    .contenedor {
+        width: 1000px;
+    }
+}
+
+#check-goals h3 {
+    text-align: center;
+    background: #A2D2E9;
+    color: #041E2D;
+}
+
+#check-goals h3, h4 {
+    text-align: center;
+}
+
+#check-goals p {
+    display: none;
+}
+
+#check-goals .contenedor {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#check-goals article {
+    margin: 15px;
+    width: 270px;
+}
+
+#check-goals img {
+    width: 100%;
+    max-width: 280px;
+}
+
+
+@media(min-width:480px){
+    #check-goals p {
+        display: block;
+        text-align: justify;
+    }
+    
+}
+
+@media (max-width:1024px){
+    #check-goals .contenedor {
+        justify-content: center;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
